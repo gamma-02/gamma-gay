@@ -3,11 +3,20 @@
 declare global {
 	namespace App {
 		interface Platform {
-			env: Env;
-			ctx: ExecutionContext;
-			caches: CacheStorage;
-			cf?: IncomingRequestCfProperties;
+			env: {
+				COUNTER: DurableObjectNamespace;
+			};
+			context: {
+				waitUntil(promise: Promise<any>): void;
+			};
+			caches: CacheStorage & { default: Cache }
 		}
+		// interface Platform {
+		// 	env: Env;
+		// 	ctx: ExecutionContext;
+		// 	caches: CacheStorage;
+		// 	cf?: IncomingRequestCfProperties;
+		// }
 
 		// interface Error {}
 		// interface Locals {}

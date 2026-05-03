@@ -3,5 +3,10 @@
 	"name": "gamma-gay",
 	"compatibility_date": "2026-05-03",
 	"compatibility_flags": ["nodejs_als"],
-	"pages_build_output_dir": ".svelte-kit/cloudflare"
+	"main": "./.svelte-kit/cloudflare/_worker.js",
+	"assets": {
+		"directory": "./.svelte-kit/cloudflare",
+		"binding": "ASSETS"
+	}
+
 }
