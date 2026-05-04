@@ -7,12 +7,12 @@
 
 
     interactivity()
-    const scale = new Spring(1)
+    const scale = new Spring(2)
 
     let teapot;
 
     let rotation = $state(0)
-    let mouseRotation = {x:0, y:0};
+    let mouseRotation = $state({x:0, y:0});
     useTask((delta) => {
         rotation += delta
         mouseRotation = mouseRotation;
@@ -45,32 +45,32 @@
         oncreate={(ref) => {
             ref.lookAt(0, 1, 0)
         }}
-        castShadow
 />
 
-<T.DirectionalLight position={[0, 10, 10]} castShadow />
+<T.DirectionalLight position={[0, 10, 10]} color="#ffffff" />
 
 
-<Teapot position.y={0}
+<Teapot position.y={-2}
+        position.z={1}
         rotation.y={rotation}
         scale={scale.current}
+
         onpointerenter={() => {
-            scale.target = 1.5
+            scale.target = 3.5
         }}
         onpointerleave={() => {
-            scale.target = 1
+            scale.target = 2
         }}
         bind:this={teapot}
-        castShadow
 />
 
-<T.Mesh
-        rotation.x={-Math.PI / 2}
-        receiveShadow
->
-    <T.CircleGeometry args={[4, 40]} />
-    <T.MeshStandardMaterial color="white" />
-</T.Mesh>
+<!--<T.Mesh-->
+<!--        rotation.x={-Math.PI / 2}-->
+<!--        receiveShadow-->
+<!--&gt;-->
+<!--    <T.CircleGeometry args={[4, 40]} />-->
+<!--    <T.MeshStandardMaterial color="white" />-->
+<!--</T.Mesh>-->
 
 <!--<T.Mesh position.y={1}-->
 <!--        scale={scale.current}-->
