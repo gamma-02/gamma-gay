@@ -26,14 +26,42 @@ a:visited {
   color: color.scale(#40b3ff, $lightness: -35%);
 }
 
+.primary-background {
+  background-color: theme.$primary;
+}
+
 h1 {
-  font-size: 2.5rem; /* Or any size you prefer */
+  font-size: 2em; /* Or any size you prefer */
   color: theme.$primary;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 2rem; /* Or any size you prefer */
+  font-size: 1.5em; /* Or any size you prefer */
+  color: theme.$primary;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.17em;
+  color: theme.$primary;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.0em;
+  color: theme.$primary; //maybe?
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.83em;
+  color: theme.$primary;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 0.67em;
   color: theme.$primary;
   font-weight: bold;
 }

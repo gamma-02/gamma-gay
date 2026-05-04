@@ -1,6 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/Gamma_uc_lc.svg';
+    // import styles from '$lib/assets/styles.css'
 
 	let { children } = $props();
 </script>
@@ -13,5 +14,6 @@
             href="/smui-dark.css"
             media="screen and (prefers-color-scheme: dark)"
     />
+<!--    <link rel="stylesheet" href="{styles}"/>-->
 </svelte:head>
 {@render children()}
