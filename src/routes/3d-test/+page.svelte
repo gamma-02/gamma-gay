@@ -5,6 +5,6 @@
 </script>
 
 <Canvas>
-    <Scene />
+    <Scene scaleWithMouseOver/>
 
 </Canvas>
