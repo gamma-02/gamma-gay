@@ -11,6 +11,7 @@
 <div class="container-box">
     <div class="vertical-grid">
         <h1 style="font-size: 50px; font-family: 'Comic Sans MS'; color: magenta;"> I was forcibly removed from the web design class. </h1>
+        <sub style="font-family: 'Comic Sans MS'; color: magenta; text-align: right; width: 100%;">this is a joke i wasn't actually</sub>
     </div>
 </div>
 
