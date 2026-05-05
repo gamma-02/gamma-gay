@@ -3,16 +3,21 @@
 </script>
 
 <style>
-    :global(body) {
-        background-color: lime;
-    }
 </style>
 
-<div class="container-box">
+<div class="container-box bg-white">
     <div class="vertical-grid">
-        <h1 style="font-size: 50px; font-family: 'Comic Sans MS'; color: magenta;"> I was forcibly removed from the web design class. </h1>
-        <sub style="font-family: 'Comic Sans MS'; color: magenta; text-align: right; width: 100%;">this is a joke i wasn't actually</sub>
+        <h1 style="color: black;">I Enter Web Design Class</h1>
+        <a href="./web-design/removal" style="font-family: monospace;">
+<pre>
+<u>
+.h1 &lbrace;
+    font-size: 50px;
+    font-family: 'Comic Sans MS'
+    color: magenta;
+&rbrace;
+</u>
+</pre>
+        </a>
     </div>
 </div>
-
-

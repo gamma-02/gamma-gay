@@ -36,7 +36,10 @@
     margin: 10px;
 }
 
-
 .align-center {
     text-align: center;
+}
+
+.bg-white {
+    background-color: white;
 }

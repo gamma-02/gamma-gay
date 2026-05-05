@@ -12,7 +12,7 @@
 
         <div style="width: 500px; height: 500px; border: 5px solid black;">
             <Canvas colorSpace="srgb">
-                <AsciiRenderer characters=" .:-+*=%@#" options={{ color: false }} fgColor="#d43939"/>
+                <AsciiRenderer fgColor="#d43939"/>
                 <Scene />
             </Canvas>
         </div>
