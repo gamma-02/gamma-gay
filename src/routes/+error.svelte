@@ -15,7 +15,7 @@
 <!--                <AsciiRenderer fgColor="#d43939"/>-->
 <!--                <Scene />-->
 <!--            </Canvas>-->
-            <img src="404_error.png" alt="An image of Gamma's TV-head OC making a pot of tea while their laptop is disconnected from the internet..."/>
+            <img src="/404_error.png" alt="Gamma's TV-head OC making a pot of tea while their laptop is disconnected from the internet..."/>
         </div>
 <!--        <p>hi!</p>-->
     </div>
