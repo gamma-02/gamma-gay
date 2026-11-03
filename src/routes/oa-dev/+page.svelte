@@ -4,10 +4,9 @@
 
 <div class="unity-container">
     <iframe
-            src="/Dev_10-28_web/web_build/index.html"
+            src="/Dev_11-3_web/web_build/index.html"
             title="Unity WebGL Build"
             style="width: {width}; height: {height};"
-            frameborder="0"
             allow="autoplay; fullscreen; vr"
             allowfullscreen
     ></iframe>

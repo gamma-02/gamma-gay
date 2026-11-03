@@ -1,7 +1,7 @@
 <script>
-    import { Canvas } from '@threlte/core'
-    import Scene from './3d-test/Scene.svelte'
-    import { AsciiRenderer } from '@threlte/extras'
+    // import { Canvas } from '@threlte/core'
+    // import Scene from './3d-test/Scene.svelte'
+    // import { AsciiRenderer } from '@threlte/extras'
 
 
 </script>
@@ -17,6 +17,5 @@
 <!--            </Canvas>-->
             <img src="/404_error.png" alt="Gamma's TV-head OC making a pot of tea while their laptop is disconnected from the internet..."/>
         </div>
-<!--        <p>hi!</p>-->
     </div>
 </div>
