@@ -4,7 +4,7 @@
 
 <div class="unity-container">
     <iframe
-            src="//index.html"
+            src="/dev_playtest/index.html"
             title="Unity WebGL Build"
             style="width: {width}; height: {height};"
             allow="autoplay; fullscreen; vr"
