@@ -1,7 +1,7 @@
 {
 	"$schema": "./node_modules/wrangler/config-schema.json",
 	"name": "gamma-gay",
-	"compatibility_date": "2026-05-03",
+	"compatibility_date": "2026-11-18",
 	"compatibility_flags": ["nodejs_als", "brotli_content_encoding"],
 	"main": "./.svelte-kit/cloudflare/_worker.js",
 	"assets": {
